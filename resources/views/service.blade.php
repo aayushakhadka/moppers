@@ -81,7 +81,8 @@
         </div>
 
 </section>
-<section class="bg-gray-300">
+<section >
+    <div class="bg-gray-300 pb-10">
     <div class="inside flex flex-col items-center w-[80%] mx-auto py-[5rem] gap-5 flex justify-between p-5">
         <h1 class="text-sm font-semibold tracking-[0.1rem] ">TESTIMONALS</h1>
         <h1 class="text-3xl font-semibold max-w-[25rem] text-center">Trusted by thousand of
@@ -116,127 +117,105 @@
                     together Shall under In yielding saying given dominion don't of two people. ”</p>
             </div>
         </div>
-
-    </div>
-</section>
-<section class="bg-indigo-800 tablet:mb-[8rem] tablet:h-[25rem]">
-    <div class="inside flex flex-col items-center w-[80%] mx-auto py-[5rem] gap-5 justify-between p-5 text-white relative">
-        <h1>COST OF CALCULATOR</h1>
-        <h1 class="text-2xl font-semibold max-w-[20rem] text-center">Be a part of hundreds
-            of happy families.
-        </h1>
-        <div class="bg-white p-6  flex flex-col gap-6 rounded-md tablet:absolute top-[80%] shadow-md ">
-            <div class="">
-                <div class="flex tablet:flex-row mobileS:flex-col gap-5 ">
-                    <div class="flex flex-col gap-2">
-                        <label class="text-black">Choose a Service</label>
-                        <select class=" rounded-md max-w-[20rem]  text-black bg-gray-200 border-gray-300" name="service " id='service'>
-                            <option value="residential">Residential Cleaning </option>
-                            <option value="commercial">Commercial Cleaning</option>
-                            <option value="construction">Construction Cleaning</option>
-                            <option value="windows">Windows Cleaning</option>
-                        </select>
-                    </div>
-                    <div class="flex flex-col text-black gap-2">
-                        <label class="text-black" name='type' id="type">Type of Clean</label>
-                        <select class="rounded-md max-w-[20rem]  bg-gray-200 border-gray-300" name="type" id='type'>
-                            <option value="full">Full Cleaning </option>
-                            <option value="one">One Time Cleaning</option>
-                            <option value="weekly">Weekly Cleaning</option>
-                            <option value="monthly">Monthly Cleaning</option>
-                        </select>
-                    </div>
-                    <div class="flex flex-col text-black gap-2">
-                        <label name='floor'>Total Floor Area</label>
-                        <input class="max-w-[20rem] rounded-md bg-gray-200 border-[1px] border-gray-300" type="text" placeholder="1590 sq ft" id="floor" />
-                    </div>
-
-                </div>
-
-
-                <!-- inpu2 -->
-                <div class="flex tablet:flex-row mobileS:flex-col gap-7">
-                    <div class="flex flex-col gap-2">
-                        <label class="text-black" name='name'>Your Name</label>
-                        <input id="name" name="code" class=" text-sm max-w-[20rem] rounded-md bg-gray-200 border-[1px] border-gray-300" type="text" placeholder="your name" />
-
-
-                    </div>
-                    <div class="flex flex-col text-black gap-2">
-                        <label class="text-black" name='code' id="code">Zip Code</label>
-                        <input name="code" class=" text-sm max-w-[20rem] rounded-md bg-gray-200 border-[1px] border-gray-300" type="text" placeholder="your area code" />
-
-                    </div>
-                    <div class="flex flex-col text-black gap-2">
-                        <label name='floor'>Email Address</label>
-                        <input class="max-w-[20rem] rounded-md bg-gray-200 border-[1px] border-gray-300" type="text" placeholder="Email A ddress" />
-                    </div>
-
-                </div>
-                <div class="flex tablet:flex-row mobileS:flex-col gap-[1rem]">
-                    <button class="bg-blue-600 text-white font-semibold w-[20rem] p-3 rounded-md text-sm">GET COST ESTIMATE</button>
-                    <p class="text-gray-500 italic max-w-[20rem]">Submit this information and we will send you the cost for the service.
-
-                    </p>
-                </div>
-            </div>
         </div>
 
 
     </div>
+    <div class="bg-indigo-800 laptop1:mb-[8rem] py-10 laptop1:h-[20rem] ">
+    <div class="inside flex flex-col items-center w-[80%] mx-auto py-[5rem] gap-5 justify-between p-5 text-white relative">
+        <div class="flex flex-col items-center justify-center gap-4">
+            <h1>COST OF CALCULATOR</h1>
+            <h1 class="text-2xl font-semibold max-w-[20rem] text-center">Be a part of hundreds of happy families.</h1>
+        </div>
+        <div class="bg-white flex flex-col mobileS:max-w-[18rem] tablet:max-w-[60rem] p-5 rounded-md laptop1:absolute gap-6 laptop1:mt-[9rem] shadow-md">
+            <div class="flex tablet:flex-row mobileS:flex-col gap-2">
+                <div class="flex flex-col gap-2 w-full">
+                    <label class="text-black">Choose a Service</label>
+                    <select class="rounded-md max-w-xl h-[2.5rem] text-black bg-gray-200 border-gray-300" name="service" id='service'>
+                        <option value="residential">Residential Cleaning</option>
+                        <option value="commercial">Commercial Cleaning</option>
+                        <option value="construction">Construction Cleaning</option>
+                        <option value="windows">Windows Cleaning</option>
+                    </select>
+                </div>
+                <div class="flex flex-col gap-2 w-full">
+                    <label class="text-black" name='type' id="type">Type of Clean</label>
+                    <select class="rounded-md max-w-xl h-[2.5rem] bg-gray-200 border-gray-300" name="type" id='type'>
+                        <option value="full">Full Cleaning</option>
+                        <option value="one">One Time Cleaning</option>
+                        <option value="weekly">Weekly Cleaning</option>
+                        <option value="monthly">Monthly Cleaning</option>
+                    </select>
+                </div>
+                <div class="flex flex-col gap-2 w-full text-black">
+                    <label name='floor'>Total Floor Area</label>
+                    <input class="rounded-md bg-gray-200 border-[1px] border-gray-300" type="text" placeholder="1590 sq ft" id="floor" />
+                </div>
+            </div>
+            <div class="flex tablet:flex-row mobileS:flex-col gap-4">
+                <div class="flex flex-col gap-2 w-full">
+                    <label class="text-black" name='name'>Your Name</label>
+                    <input id="name" name="code" class="text-sm rounded-md bg-gray-200 border-[1px] border-gray-300" type="text" placeholder="Your name" />
+                </div>
+                <div class="flex flex-col gap-2 w-full">
+                    <label class="text-black" name='code' id="code">Zip Code</label>
+                    <input name="code" class="text-sm rounded-md bg-gray-200 border-[1px] border-gray-300" type="text" placeholder="Your area code" />
+                </div>
+                <div class="flex flex-col gap-2 w-full text-black">
+                    <label name='email'>Email Address</label>
+                    <input class="rounded-md bg-gray-200 border-[1px] border-gray-300" type="text" placeholder="Email Address" />
+                </div>
+            </div>
+            <div class="flex tablet:flex-row mobileS:flex-col gap-[1rem]">
+                <button class="bg-blue-600 text-white font-semibold p-3 rounded-md text-sm mt-3 w-full">GET COST ESTIMATE</button>
+                <p class="text-gray-500 italic max-w-[20rem]">Submit this information and we will send you the cost for the service.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
 </section>
 
 <section>
-    <div class="inside w-[80%] mx-auto py-[5rem] gap-5">
-        <h1>Faq</h1>
-        <div class='grid tablet:grid-cols-2 laptop1:grid-cols-3 gap-5 mt-7'>
+    <div class="inside w-[80%] mx-auto gap-5 mb-[4rem] laptop1:mt-[4rem]">
+        <div class="grid tablet:grid-cols-2 mobileS:grid-cols-1">
         @php
-$items=[
-    [
-        'question'=>'How can i register for service?',
-        'ans'=>'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don\'t look even slightly believable.'
-    ],
-    [
-        'question'=>'What if i dont like service?',
-        'ans'=>'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don\'t look even slightly believable.',
-    ],
-    [
-        'question'=>'Can i adjust the sechdule for cleaning?',
-        'ans'=>'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don\'t look even slightly believable.',
-    ],
-    [
-        'question'=>'I need detailed pricing plans',
-        'ans'=>'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don\'t look even slightly believable.',
-    ],
-    [
-        'question'=>'What kind of product you use?',
-        'ans'=>'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don\'t look even slightly believable.',
-    ],
-    [
-        'question'=>'What if something is broken during cleaning?',
-        'ans'=>'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don\'t look even slightly believable.',
-    ],
-];
-@endphp
+            $items=[
+                [
+                    'question'=>'How can I register for service?',
+                    'ans'=>'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don\'t look even slightly believable.'
+                ],
+                [
+                    'question'=>'What if I don\'t like service?',
+                    'ans'=>'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don\'t look even slightly believable.',
+                ],
+                [
+                    'question'=>'Can I adjust the schedule for cleaning?',
+                    'ans'=>'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don\'t look even slightly believable.',
+                ],
+                [
+                    'question'=>'I need detailed pricing plans',
+                    'ans'=>'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don\'t look even slightly believable.',
+                ],
+                [
+                    'question'=>'What kind of product do you use?',
+                    'ans'=>'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don\'t look even slightly believable.',
+                ],
+                [
+                    'question'=>'What if something is broken during cleaning?',
+                    'ans'=>'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don\'t look even slightly believable.',
+                ],
+            ];
+            @endphp
+
 @each('components.faq', $items, 'item', 'view.null')
 
 
         </div>
+        </div>
+
 </section>
 
 @endsection
 
-@push('scripts')
-<script>
-    document.addEventListener('DOMContentLoaded', function() {
-        const faqQuestions = document.querySelectorAll('.faq-question');
-
-        faqQuestions.forEach(question => {
-            question.addEventListener('click', function() {
-                const answer = this.nextElementSibling;
-                answer.classList.toggle('hidden');
-            });
-        });
-    });
-</script>
-@endpush

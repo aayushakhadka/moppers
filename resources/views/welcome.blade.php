@@ -58,6 +58,18 @@ your <span class="font-semibold ">home</span> & <span class="font-semibold">offi
 </div>
 
     </div>
+    <div class="flex flex-col gap-4 w-[80%] mx-auto items-center justify-center">
+        <h1 class="text-sm text-gray-400">TRUSTED BY THOUSAND OF ORGANIZATIONS</h1><hr class="border-gray-300 w-full"/>
+        <div class="grid tablet:grid-cols-6 mobileS:grid-cols-2 gap-8">
+            <img class="h-[3rem]" src="https://www.slashcreative.co/themes/moppers-version-2/wp-content/uploads/2019/12/logo-6.png"/>
+<img class="h-[3rem]" src="https://www.slashcreative.co/themes/moppers-version-2/wp-content/uploads/2019/12/logo-3.png"/>
+<img class="h-[3rem]" src="https://www.slashcreative.co/themes/moppers-version-2/wp-content/uploads/2019/12/logo-5.png"/>
+<img class="h-[3rem]" src="https://www.slashcreative.co/themes/moppers-version-2/wp-content/uploads/2019/12/logo-2-1.png"/>
+<img class="h-[3rem]" src="https://www.slashcreative.co/themes/moppers-version-2/wp-content/uploads/2019/12/logo-4.png"/>
+<img class="h-[3rem]" src="https://www.slashcreative.co/themes/moppers-version-2/wp-content/uploads/2019/12/logo-2-1.png"/>
+
+        </div>
+    </div>
 </section>
 <section class="py-[3rem]">
 <div class="bg-indigo-800 bg-opacity-70 py-[5rem]">
@@ -336,10 +348,10 @@ of happy families.
 
 
 </div>
-</section>
+     </div>
 <section>
     <div class="inside flex flex-col w-[80%] mx-auto py-[5rem] gap-5 p-5" >
-<h1 class="font-semibold flex items-center justify-center">BLOG</h1>
+<h1 class="font-semibold flex">BLOG</h1>
 <div class="flex tablet:flex-row mobileS:flex-col items-center justify-between ">
     <h1 class="text-3xl font-semibold max-w-[20rem]">Tips to keep the
 surroundings clean.</h1>

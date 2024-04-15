@@ -12,7 +12,7 @@
         <img src="https://www.slashcreative.co/themes/moppers-version-2/wp-content/themes/moppers/assets/images/icons/slcr-logo-simple.svg" alt="Logo" class="h-8">
 </div>
 
-    <div class="sidebar bg-white shadow-md p-4 flex fixed right-0 top-0 h-full w-64 font-semibold">
+    <div class="sidebar bg-white shadow-md p-4 z-20 flex fixed right-0 top-0 h-full w-64 font-semibold">
         <div class="flex flex-col gap-4">
             <a href="/" class="mt-[4rem]">Home</a>
             <a href="/about" class="">About</a>
